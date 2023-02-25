@@ -67,6 +67,7 @@ Functionality: 60%
 - The program should be able to display the winner of each round and the final score.
 
 User Interface: 25%
+- The game should be played in the console. 
 - The user interface should be clear and easy to understand.
 - The user interface should prompt the user for their choice.
 - The user interface should display the computer's choice and the winner of each round.
