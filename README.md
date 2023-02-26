@@ -31,7 +31,7 @@ This project will make use of the following skills or technologies:
 
 You must create 5 files in this project: `actions.py`, `computer.py`, `human.py`, `player.py`, and `game.py`.
 
-You must implement the basic game loop in the `game.py` file. The `actions.py` file is where you implement the rock-paper-scissors logic of the game. The `player.py` file is where you define a player's characteristics and actions and score. The `human.py` file inherits the player.py file and asks for input from a user through the console to determine an action to play. The `computer.py` file inherits the `player.py` file and chooses a random action to play. At the end of the game, you should print out the winner to the console. 
+You must implement the basic game loop in the `game.py` file. The `actions.py` file is where you implement the rock-paper-scissors logic of the game. The `player.py` file is where you define a player's characteristics and actions and score. The `human.py` file inherits the `player.py` file and asks for input from a user through the console to determine an action to play. The `computer.py` file inherits the `player.py` file and chooses a random action to play. At the end of the game, you should print out the winner to the console. 
 
 To run the game, run `python3 game.py` in the terminal.
 
@@ -51,7 +51,7 @@ We want you to:
   - the play method should have the appropriate error handling so that if a user inputs an invalid response, then the program doesn't crash. 
 - [✅] the `computer.py` file should choose a random action to play (i.e. rock, paper, scissor).
 - [✅] the `actions.py` file should implement the rock-paper-scissors logic of the game.
-  -  Paper beats rock, rock beats scissor, and scissor beats paper, 
+  -  Paper beats rock, rock beats scissor, and scissor beats paper.
 - [✅] the game should run until a player wins 3 games.
 - [✅] display the winner and loser at the end of the game. 
 
